@@ -1,0 +1,48 @@
+{
+  "name": "gulp-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Vini-Dev/gulp-boilerplate.git",
+  "author": "Vini <vi.peres@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "yarn gulp start",
+    "lint": "yarn eslint --fix"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "autoprefixer": "^9.7.0",
+    "cssnano": "^4.1.10",
+    "eslint": "7.2.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "2.21.2",
+    "eslint-plugin-jsx-a11y": "6.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "7.20.0",
+    "eslint-plugin-react-hooks": "4.0.0",
+    "gulp": "4",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-babel-minify": "^0.5.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^1.2.0",
+    "gulp-uglify": "^3.0.2",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "express": "^4.17.1"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}

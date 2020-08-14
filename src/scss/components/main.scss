@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: calc(100vh - 120px);
+
+  background-color: #c44545;
+
+  @keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  img {
+    border-radius: 50%;
+    animation: rotating 12s linear infinite;
+  }
+}
