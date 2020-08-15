@@ -2595,6 +2595,7 @@ main {
   align-items: center;
   justify-content: center;
   height: calc(100vh - 120px);
+  overflow: hidden;
   background-color: #c44545; }
 
 @-webkit-keyframes rotating {

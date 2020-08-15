@@ -5,6 +5,8 @@ main {
 
   height: calc(100vh - 120px);
 
+  overflow: hidden;
+
   background-color: #c44545;
 
   @keyframes rotating {
