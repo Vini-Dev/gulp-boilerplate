@@ -9,7 +9,9 @@ body {
   font: 16px 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased; }
 
-body, input, button {
+body,
+input,
+button {
   font: 16px 'Roboto', sans-serif; }
 
 button {
